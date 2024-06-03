@@ -39,7 +39,7 @@ video_file_name = ""
 
 # MongoDB connection initialization
 uri = "mongodb+srv://ritamsingha2099:pvsTWqU618bUqhxn@cluster0.nehxyvh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-client = pymongo.MongoClient(uri)
+client = MongoClient(uri)
 
 #User Database(Admin)
 db = client['user_database']
