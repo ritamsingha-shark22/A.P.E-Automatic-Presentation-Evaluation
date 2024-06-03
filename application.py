@@ -38,7 +38,7 @@ processing_videos = set()
 video_file_name = ""
 
 # MongoDB connection initialization
-uri = "mongodb+srv://ritamsingha2099:pvsTWqU618bUqhxn@cluster0.nehxyvh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+uri = "mongodb+srv://<ritamsingha2099>:<pvsTWqU618bUqhxn>@ac-g1fle0m-shard-00-00.nehxyvh.mongodb.net/test?retryWrites=true&w=majority&tls=true&tlsAllowInvalidCertificates=true"
 client = MongoClient(uri)
 
 #User Database(Admin)
