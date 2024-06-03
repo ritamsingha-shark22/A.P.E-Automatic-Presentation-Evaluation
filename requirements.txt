@@ -13,3 +13,5 @@ onnxruntime==1.8.0
 numpy==1.19.5
 imageio==2.9.0
 imageio-ffmpeg==0.4.2
+dnspython==2.1.0
+
