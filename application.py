@@ -20,7 +20,7 @@ from bson import ObjectId
 app = Flask(__name__)
 
 # Secret key for session management
-app.secret_key = '7c1f4e2d9b3c5a8d9e7f1b2c4e6a8f9d'
+app.secret_key = '3e85bbd16e26b3fbc4e1a0eb8eae18b7'
 
 # Configure logging
 logging.basicConfig(level=logging.DEBUG)  # Set the logging level to DEBUG
