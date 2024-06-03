@@ -10,3 +10,4 @@ reportlab
 pymongo
 onnxruntime
 numpy
+opencv-python
